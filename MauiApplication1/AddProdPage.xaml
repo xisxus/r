@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApplication1.AddProdPage"
+             Title="AddProdPage">
+    <StackLayout Padding="20">
+        <Entry Placeholder="Product Name" x:Name="NameEntry" />
+        <Entry Placeholder="Price" x:Name="PriceEntry" Keyboard="Numeric" />
+        <Entry Placeholder="Stock" x:Name="StockEntry" Keyboard="Numeric" />
+        <Button Text="Save Product" Clicked="OnSaveClicked" />
+    </StackLayout>
+</ContentPage>
